@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Classlog</string>
+
+    <string-array name="dept_lists">
+        <item>BCA</item>
+        <item>BBM</item>
+        <item>BCOM</item>
+    </string-array>
+
+    <string-array name="class_lists">
+        <item>I year</item>
+        <item>II year</item>
+        <item>III year</item>
+    </string-array>
+
+</resources>

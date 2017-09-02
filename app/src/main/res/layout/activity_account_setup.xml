@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/profilePictureImgVw"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_profile_picture" />
+
+    <EditText
+        android:id="@+id/profileNameTxtVw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilePictureImgVw"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your profile name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Update"/>
+
+    <TextView
+        android:id="@+id/deptSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileNameTxtVw"
+        android:layout_marginTop="20dp"
+        android:text="Choose your department and Class"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deptSelector"
+        android:layout_marginTop="10dp"
+        android:entries="@array/dept_lists"
+        android:padding="5dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:entries="@array/class_lists"
+        android:padding="5dp"/>
+
+
+</RelativeLayout>

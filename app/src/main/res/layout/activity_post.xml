@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/postImageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_add_photo" />
+
+    <EditText
+        android:id="@+id/postTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postImageBtn"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Post Title"
+        android:inputType="text"
+        android:background="@drawable/input_outline"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/postDescEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Post Description"
+        android:background="@drawable/input_outline"
+        android:layout_below="@+id/postTitleEditText"/>
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/colorEdgeEffect"
+        android:padding="10dp"
+        android:text="Post"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

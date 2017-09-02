@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#068f79</color>
+    <color name="colorPrimaryDark">#07a68c</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="outline_color">#c2c2c2</color>
+
+    <!--Floating Action bar color-->
+    <color name="fab_btn">#03748b</color>
+</resources>

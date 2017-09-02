@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = MainActivity.this;
 
         mAuth = FirebaseAuth.getInstance();
-
+        //comment by das to check GitHub commit
         //Check if user is logged in.
         //if not navigate to the login activity.
         mAuthListener = new FirebaseAuth.AuthStateListener() {
